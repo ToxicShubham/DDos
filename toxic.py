@@ -384,9 +384,12 @@ def welcome_rules(message):
     response = f'''{user_name} Please Follow These Rules ⚠️:
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
-2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
+2. Dont Run 2 Attacks At Same Restart Time 20 Sec After First Attack
 3. MAKE SURE YOU JOINED https://t.me/+AmYwq4qNTEJiYTg1
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
+5. If You Want Instant Crash Then Share IP & PORT TO Admin
+6. Join TOxic Clan For Continue Support and We Provide Antiban Mods To Our Clan Menmbers 
+
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
