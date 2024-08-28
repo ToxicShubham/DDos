@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @itxz_toxic_op 🙇."
+        response = "FIRST JOI TOXIC CLAN THEN ACCESS ME BABE FOR JOINING DM TO:- @itxz_toxic_op 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @itxz_toxic_op ❄."
+        response = "FIRST JOI TOXIC CLAN THEN ACCESS ME BABE FOR JOINING DM TO:- @itxz_toxic_op ❄."
     bot.reply_to(message, response)
 
 
