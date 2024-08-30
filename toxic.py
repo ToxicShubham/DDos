@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "FIRST JOI TOXIC CLAN THEN ACCESS ME BABE FOR JOINING DM TO:- @itxz_toxic_op 🙇."
+        response = "You have not purchased yet purchase now from:- @itxz_toxic_op 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "FIRST JOI TOXIC CLAN THEN ACCESS ME BABE FOR JOINING DM TO:- @itxz_toxic_op ❄."
+        response = "You have not purchased yet purchase now from :- @itxz_toxic_op ❄."
     bot.reply_to(message, response)
 
 
@@ -384,12 +384,9 @@ def welcome_rules(message):
     response = f'''{user_name} Please Follow These Rules ⚠️:
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
-2. Dont Run 2 Attacks At Same Restart Time 20 Sec After First Attack
+2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
 3. MAKE SURE YOU JOINED https://t.me/+AmYwq4qNTEJiYTg1
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
-5. If You Want Instant Crash Then Share IP & PORT TO Admin
-6. Join TOxic Clan For Continue Support and We Provide Antiban Mods To Our Clan Menmbers 
-
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
